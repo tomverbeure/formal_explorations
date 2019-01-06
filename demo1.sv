@@ -21,6 +21,6 @@ module demo1(
         end
     end
 
-    assert property($initstate || !reset_ || cntr <= 2);
+    assert property($initstate || !reset_ || cntr != 3);
     
 endmodule
